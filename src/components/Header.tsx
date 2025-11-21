@@ -47,23 +47,23 @@ export const Header = () => {
       </div>
 
       {/* Search Bar */}
-      <div className="bg-[#2A2A2A] py-4">
+      <div className="bg-[#2A2A2A] py-2">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto relative">
-            <div className="flex items-center gap-4 bg-[#3A3A3A] rounded-full px-6 py-3">
-              <span className="text-white/60 text-2xl">+</span>
+          <div className="max-w-2xl mx-auto relative">
+            <div className="flex items-center gap-3 bg-[#3A3A3A] rounded-full px-4 py-2">
+              <span className="text-white/60 text-lg">+</span>
               <Input
                 placeholder="Poser une question"
-                className="flex-1 bg-transparent border-0 text-white placeholder:text-white/50 focus-visible:ring-0 focus-visible:ring-offset-0"
+                className="flex-1 bg-transparent border-0 text-white text-sm placeholder:text-white/50 focus-visible:ring-0 focus-visible:ring-offset-0"
               />
-              <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 rounded-full">
-                <Mic className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 rounded-full h-8 w-8">
+                <Mic className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 rounded-full">
-                <div className="flex gap-1">
-                  <div className="w-1 h-4 bg-white rounded-full"></div>
-                  <div className="w-1 h-4 bg-white rounded-full"></div>
-                  <div className="w-1 h-4 bg-white rounded-full"></div>
+              <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 rounded-full h-8 w-8">
+                <div className="flex gap-0.5">
+                  <div className="w-0.5 h-3 bg-white rounded-full"></div>
+                  <div className="w-0.5 h-3 bg-white rounded-full"></div>
+                  <div className="w-0.5 h-3 bg-white rounded-full"></div>
                 </div>
               </Button>
             </div>
