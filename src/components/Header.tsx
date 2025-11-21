@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, Mic } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import bnpLogo from "@/assets/bnp-logo.webp";
 
 const navigationItems = [
@@ -13,6 +15,16 @@ const navigationItems = [
 ];
 
 export const Header = () => {
+  const navigate = useNavigate();
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate('/article');
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background">
       {/* Main Navigation */}
@@ -58,23 +70,25 @@ export const Header = () => {
       <div className="bg-primary py-3">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto relative">
-            <div className="flex items-center gap-3 bg-white rounded-full px-4 py-2 shadow-md">
+            <form onSubmit={handleSearch} className="flex items-center gap-3 bg-white rounded-full px-4 py-2 shadow-md">
               <span className="text-muted-foreground text-lg">+</span>
               <Input
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Ask a question"
                 className="flex-1 bg-transparent border-0 text-foreground text-sm placeholder:text-muted-foreground focus-visible:ring-0 focus-visible:ring-offset-0"
               />
-              <Button variant="ghost" size="icon" className="hover:bg-secondary rounded-full h-8 w-8">
+              <Button type="button" variant="ghost" size="icon" className="hover:bg-secondary rounded-full h-8 w-8">
                 <Mic className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-secondary rounded-full h-8 w-8">
+              <Button type="submit" variant="ghost" size="icon" className="hover:bg-secondary rounded-full h-8 w-8">
                 <div className="flex gap-0.5">
                   <div className="w-0.5 h-3 bg-foreground rounded-full"></div>
                   <div className="w-0.5 h-3 bg-foreground rounded-full"></div>
                   <div className="w-0.5 h-3 bg-foreground rounded-full"></div>
                 </div>
               </Button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
