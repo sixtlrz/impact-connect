@@ -26,7 +26,7 @@ const members = [
 
 export const CommunitySection = () => {
   return (
-    <section className="py-20">
+    <section className="pt-12 pb-20">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
           Join our club
