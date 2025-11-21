@@ -67,11 +67,11 @@ export default function Simulate() {
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       <Header />
       
-      <div className="container mx-auto px-6 pt-32 pb-16">
+      <div className="container mx-auto px-6 pt-40 pb-16">
         <Button
           variant="ghost"
           onClick={() => navigate("/")}
-          className="mb-20"
+          className="mb-8"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back
