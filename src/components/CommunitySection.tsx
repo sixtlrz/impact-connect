@@ -1,10 +1,11 @@
 import alainLeGrix from "@/assets/alain-le-grix.jpg";
+import patrickPouyanne from "@/assets/patrick-pouyanne.jpg";
 
 const members = [
   {
     name: "Patrick Pouyanné",
     title: "CEO, TotalEnergies",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+    image: patrickPouyanne,
   },
   {
     name: "Alain Le Grix de la Salle",
