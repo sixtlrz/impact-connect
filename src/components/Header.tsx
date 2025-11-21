@@ -30,7 +30,9 @@ export const Header = () => {
       {/* Main Navigation */}
       <div className="bg-white">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-          <img src={bnpLogo} alt="BNP Paribas Banque Privée" className="h-10 flex-shrink-0" />
+          <a href="https://mabanqueprivee.bnpparibas" target="_blank" rel="noopener noreferrer">
+            <img src={bnpLogo} alt="BNP Paribas Banque Privée" className="h-10 flex-shrink-0" />
+          </a>
           
           <nav className="flex items-center gap-6 mx-8">
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
