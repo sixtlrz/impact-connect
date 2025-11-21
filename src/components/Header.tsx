@@ -14,7 +14,7 @@ const navigationItems = [
 
 export const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background">
       {/* Main Navigation */}
       <div className="bg-white">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
