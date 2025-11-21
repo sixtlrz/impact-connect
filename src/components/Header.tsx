@@ -17,23 +17,32 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
       {/* Main Navigation */}
       <div className="bg-white">
-        <div className="container mx-auto px-6 h-16 flex items-center justify-between gap-8">
-          <img src={bnpLogo} alt="BNP Paribas Banque Privée" className="h-10" />
+        <div className="container mx-auto px-6 h-16 flex items-center justify-between">
+          <img src={bnpLogo} alt="BNP Paribas Banque Privée" className="h-10 flex-shrink-0" />
           
-          <nav className="hidden lg:flex items-center gap-8 flex-1">
-            {navigationItems.map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap"
-              >
-                {item}
-              </a>
-            ))}
+          <nav className="flex items-center gap-6 mx-8">
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Patrimoine
+            </a>
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Investissement
+            </a>
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Financement
+            </a>
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Services bancaires
+            </a>
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Être client
+            </a>
+            <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
+              Actualités
+            </a>
           </nav>
 
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
+          <div className="flex items-center gap-4 flex-shrink-0">
+            <Button variant="ghost" size="icon">
               <Search className="h-5 w-5 text-foreground/70" />
             </Button>
             <Button 
