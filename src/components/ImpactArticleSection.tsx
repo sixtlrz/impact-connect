@@ -7,7 +7,7 @@ export const ImpactArticleSection = () => {
         <Card className="max-w-5xl mx-auto p-8 md:p-12 shadow-elegant border-border">
           <article className="prose prose-lg max-w-none">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Understanding Impact Investing: Using Capital to Drive Positive Change
+              What is Impact Investing?
             </h2>
             
             <p className="text-lg text-foreground/90 mb-6">
