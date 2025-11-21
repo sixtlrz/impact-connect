@@ -1,5 +1,6 @@
 import alainLeGrix from "@/assets/alain-le-grix.jpg";
 import patrickPouyanne from "@/assets/patrick-pouyanne.jpg";
+import xavierGuesnu from "@/assets/xavier-guesnu.webp";
 
 const members = [
   {
@@ -15,7 +16,7 @@ const members = [
   {
     name: "Xavier Guesnu",
     title: "President, Lafarge France",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+    image: xavierGuesnu,
   },
   {
     name: "Rodolphe Saadé",
