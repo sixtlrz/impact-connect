@@ -24,7 +24,7 @@ const upcomingEvents = [
 
 export const DatesSection = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-background to-secondary/20">
+    <section className="pt-12 pb-24 bg-gradient-to-b from-background to-secondary/20">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           Upcoming Events
