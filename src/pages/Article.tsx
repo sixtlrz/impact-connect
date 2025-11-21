@@ -10,7 +10,7 @@ const Article = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
+      <main className="pt-[120px]">
         {/* Hero Section with different title */}
         <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
           <div 
