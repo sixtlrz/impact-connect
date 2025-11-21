@@ -6,10 +6,6 @@ export const ImpactArticleSection = () => {
       <div className="container mx-auto px-6">
         <Card className="max-w-5xl mx-auto p-8 md:p-12 shadow-elegant border-border">
           <article className="prose prose-lg max-w-none">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              What is Impact Investing?
-            </h2>
-            
             <p className="text-lg text-foreground/90 mb-6">
               Impact investing is a relatively new approach that involves allocating money to companies or projects that generate a <strong>positive social or environmental impact</strong>, while still seeking a <strong>financial return</strong>. Unlike philanthropy, it is not about giving money away. And unlike traditional investing, it is not only about maximizing profit. Impact investing sits at the intersection of purpose and performance: <em>earning returns by solving real-world problems</em>.
             </p>
