@@ -1,23 +1,23 @@
 const members = [
   {
-    name: "Sarah Chen",
-    title: "CEO, GreenTech Ventures",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-  },
-  {
-    name: "Marcus Williams",
-    title: "Founder, Social Impact Capital",
+    name: "Patrick Pouyanné",
+    title: "CEO, TotalEnergies",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
   },
   {
-    name: "Elena Rodriguez",
-    title: "Director, Sustainable Finance",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    name: "Alain Le Grix de la Salle",
+    title: "President, ArcelorMittal",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
   },
   {
-    name: "James Patterson",
-    title: "Managing Partner, Future Fund",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    name: "Xavier Guesnu",
+    title: "President, Lafarge France",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+  },
+  {
+    name: "Rodolphe Saadé",
+    title: "CEO, CMA CGM",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
   },
 ];
 
