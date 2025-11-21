@@ -28,7 +28,7 @@ export const CTASection = () => {
             onClick={() => navigate('/simulate')}
             className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-7 shadow-elegant group"
           >
-            Simulate my investment
+            Get Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>

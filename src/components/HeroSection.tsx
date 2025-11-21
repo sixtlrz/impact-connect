@@ -30,7 +30,7 @@ export const HeroSection = () => {
             onClick={scrollToSimulation}
             className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 shadow-elegant group"
           >
-            Get Started
+            Simulate my investment
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
