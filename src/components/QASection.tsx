@@ -7,10 +7,6 @@ import {
 
 const faqs = [
   {
-    question: "What is impact investing?",
-    answer: "Impact investing involves making investments with the intention to generate positive, measurable social and environmental impact alongside a financial return. It's about putting your capital to work for good while building wealth.",
-  },
-  {
     question: "Who can join the club?",
     answer: "Our impact investment club is open to accredited investors who share our vision of creating positive change through strategic investments. We welcome both experienced impact investors and those new to the field.",
   },
