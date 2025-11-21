@@ -28,9 +28,15 @@ export const CommunitySection = () => {
   return (
     <section className="py-24">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          They are part of our community
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+          Join our club
         </h2>
+        <p className="text-lg md:text-xl text-foreground/90 text-center mb-12 max-w-4xl mx-auto">
+          GiveBack is an impact community of investors and philantropist passionate about driving meaningful change. We believe that capital can do more than generate returns — it can solve real-world problems. Our members are committed to supporting startups and initiatives that create measurable social and environmental impact, because we want to be part of the change, not just watch it happen.
+        </p>
+        <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">
+          They are part of our community
+        </h3>
         <p className="text-xl text-muted-foreground text-center mb-16">
           Join successful impact investors shaping the future
         </p>
