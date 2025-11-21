@@ -22,22 +22,22 @@ export const Header = () => {
           
           <nav className="flex items-center gap-6 mx-8">
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Patrimoine
+              Wealth
             </a>
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Investissement
+              Investment
             </a>
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Financement
+              Financing
             </a>
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Services bancaires
+              Banking Services
             </a>
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Être client
+              Become a Client
             </a>
             <a href="#" className="text-foreground/70 hover:text-foreground transition-colors text-sm whitespace-nowrap">
-              Actualités
+              News
             </a>
           </nav>
 
@@ -61,7 +61,7 @@ export const Header = () => {
             <div className="flex items-center gap-3 bg-white rounded-full px-4 py-2 shadow-md">
               <span className="text-muted-foreground text-lg">+</span>
               <Input
-                placeholder="Poser une question"
+                placeholder="Ask a question"
                 className="flex-1 bg-transparent border-0 text-foreground text-sm placeholder:text-muted-foreground focus-visible:ring-0 focus-visible:ring-offset-0"
               />
               <Button variant="ghost" size="icon" className="hover:bg-secondary rounded-full h-8 w-8">
