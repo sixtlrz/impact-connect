@@ -1,4 +1,10 @@
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const members = [
   {
@@ -34,28 +40,35 @@ export const CommunitySection = () => {
           Join successful impact investors shaping the future
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {members.map((member, index) => (
-            <Card 
-              key={index}
-              className="group hover:shadow-elegant transition-all duration-300 border-border overflow-hidden"
-            >
-              <CardContent className="p-0">
-                <div className="aspect-square overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full max-w-5xl mx-auto"
+        >
+          <CarouselContent className="-ml-4">
+            {members.map((member, index) => (
+              <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/4">
+                <div className="text-center space-y-4">
+                  <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-card hover:shadow-elegant transition-all duration-300 hover:scale-105">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg">{member.name}</h3>
+                    <p className="text-muted-foreground text-sm">{member.title}</p>
+                  </div>
                 </div>
-                <div className="p-6 bg-gradient-card">
-                  <h3 className="font-bold text-xl mb-1">{member.name}</h3>
-                  <p className="text-muted-foreground text-sm">{member.title}</p>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
+        </Carousel>
       </div>
     </section>
   );
