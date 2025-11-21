@@ -17,7 +17,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/95" />
       </div>
       
-      <div className="relative z-10 container mx-auto px-6 py-32 text-center">
+      <div className="relative z-10 container mx-auto px-6 py-32 pt-48 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
             Looking to invest in impact-driven startups and meet people like you?
