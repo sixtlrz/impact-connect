@@ -71,10 +71,10 @@ export default function Simulate() {
         <Button
           variant="ghost"
           onClick={() => navigate("/")}
-          className="mb-8"
+          className="mb-12"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to home
+          Back
         </Button>
 
         <div className="max-w-2xl mx-auto">
