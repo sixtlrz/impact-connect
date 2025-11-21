@@ -7,11 +7,11 @@ import {
 
 const faqs = [
   {
-    question: "Who can join the club?",
+    question: "Why join the club?",
     answer: "Our impact investment club is open to accredited investors who share our vision of creating positive change through strategic investments. We welcome both experienced impact investors and those new to the field.",
   },
   {
-    question: "What types of startups do you invest in?",
+    question: "What is Give Back?",
     answer: "We focus on startups addressing critical challenges in sustainability, clean energy, healthcare innovation, education technology, and social equity. Each opportunity is carefully vetted for both impact potential and financial viability.",
   },
   {
