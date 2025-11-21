@@ -48,7 +48,7 @@ export const Header = () => {
             <Button 
               className="bg-[#8B1538] hover:bg-[#6B1028] text-white rounded-full px-6 text-sm whitespace-nowrap"
             >
-              🔒 Accéder à mes comptes
+              🔒 Access my account
             </Button>
           </div>
         </div>

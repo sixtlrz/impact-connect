@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 export const ImpactArticleSection = () => {
   return (
-    <section className="py-24 bg-secondary/30">
+    <section className="py-16 bg-secondary/30">
       <div className="container mx-auto px-6">
         <Card className="max-w-5xl mx-auto p-8 md:p-12 shadow-elegant border-border">
           <article className="prose prose-lg max-w-none">
