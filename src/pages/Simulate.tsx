@@ -71,7 +71,7 @@ export default function Simulate() {
         <Button
           variant="ghost"
           onClick={() => navigate("/")}
-          className="mb-12"
+          className="mb-20"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back
