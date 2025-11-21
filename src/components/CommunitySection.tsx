@@ -34,7 +34,7 @@ export const CommunitySection = () => {
         
         <div className="flex justify-center items-start gap-8 flex-wrap">
           {members.map((member, index) => (
-            <div key={index} className="text-center space-y-3">
+            <div key={index} className="flex flex-col items-center text-center space-y-3">
               <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20 shadow-card hover:shadow-elegant transition-all duration-300 hover:scale-105">
                 <img 
                   src={member.image} 
