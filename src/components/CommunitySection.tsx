@@ -1,6 +1,7 @@
 import alainLeGrix from "@/assets/alain-le-grix.jpg";
 import patrickPouyanne from "@/assets/patrick-pouyanne.jpg";
 import xavierGuesnu from "@/assets/xavier-guesnu.webp";
+import rodolpheSaade from "@/assets/rodolphe-saade.jpg";
 
 const members = [
   {
@@ -21,7 +22,7 @@ const members = [
   {
     name: "Rodolphe Saadé",
     title: "CEO, CMA CGM",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    image: rodolpheSaade,
   },
 ];
 
