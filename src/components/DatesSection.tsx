@@ -4,7 +4,7 @@ import { Calendar, MapPin, Users } from "lucide-react";
 const upcomingEvents = [
   {
     date: "March 15, 2025",
-    title: "Impact Investing Summit 2025",
+    title: "Innovative impact products",
     location: "Paris, France",
     attendees: "120+ investors",
   },
